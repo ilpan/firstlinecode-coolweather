@@ -120,7 +120,7 @@ public class ChooseAreaFragment extends Fragment {
                         getActivity().finish();
                     } else if (getActivity() instanceof WeatherActivity) {
                         WeatherActivity weatherActivity = (WeatherActivity) getActivity();
-                        weatherActivity.drawerLayuot.closeDrawers();
+                        weatherActivity.drawerLayout.closeDrawers();
                         weatherActivity.swipeRefresh.setRefreshing(true);
                         weatherActivity.requestWeather(weatherId);      // 该方法设为 public 为此时调用
                     }

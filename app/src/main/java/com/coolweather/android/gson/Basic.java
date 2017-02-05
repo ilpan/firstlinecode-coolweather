@@ -22,6 +22,6 @@ public class Basic {
     public class Update {
 
         @SerializedName("loc")
-        public String upateTime;
+        public String updateTime;
     }
 }

@@ -17,7 +17,7 @@
 
     <!--加入滑动菜单功能-->
     <android.support.v4.widget.DrawerLayout
-        android:id="@+id/draw_layout"
+        android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
