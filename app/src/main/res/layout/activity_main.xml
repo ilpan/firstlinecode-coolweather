@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--测试xml文件注释-->
+
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--测试内部注释-->
     <fragment
         android:id="@+id/choose_area_fragment"
         android:name="com.coolweather.android.ChooseAreaFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/choose_area"/>
+    <!--再次测试注释-->
 
 </FrameLayout>
